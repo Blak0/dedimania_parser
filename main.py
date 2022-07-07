@@ -37,7 +37,7 @@ if __name__ == '__main__':
 
         login_records_count.append(RecordCount(
             player.login, player.nickname, len(records)))
-        break
+            
     # Sort users by most records descending
     login_records_count.sort(key=lambda x: x.records_count, reverse=True)
 
